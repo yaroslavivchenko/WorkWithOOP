@@ -1,6 +1,7 @@
 package com.mainacad;
 
 import com.mainacad.circle.Circle;
+import com.mainacad.rectangle.Rectangle;
 import com.mainacad.square.Square;
 import com.mainacad.triangle.Triangle;
 
@@ -23,6 +24,12 @@ public class ApplicationRunner {
         triangle.setHeight(12.0);
 
         System.out.println("Triangle with base " + triangle.getBase() + " and height " + triangle.getHeight() + " has area " + triangle.getArea());
+
+        Rectangle rectangle = new Rectangle();
+        rectangle.setSide1(20.0);
+        rectangle.setSide2(22.0);
+
+        System.out.println("Rectangle with side1 " + rectangle.getSide1() + " and side2 " + rectangle.getSide2() + " has area " + rectangle.getArea());
 
 
 
