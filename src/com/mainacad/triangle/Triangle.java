@@ -1,6 +1,8 @@
 package com.mainacad.triangle;
 
-public class Triangle {
+import com.mainacad.abs.AbstractShape;
+
+public class Triangle extends AbstractShape {
     private double base;
     private double height;
 
